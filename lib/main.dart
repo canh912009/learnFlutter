@@ -28,7 +28,7 @@ class RamdomEnglishWordsState extends State<RamdomEnglishWords> {
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("List of English words"),
+        title: new Text("List English words"),
       ),
       body: new ListView.builder(itemBuilder: (context, index) {
         // this is anonymous function
