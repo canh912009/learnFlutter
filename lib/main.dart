@@ -59,9 +59,9 @@ class RamdomEnglishWordsState extends State<RamdomEnglishWords> {
 
 class HelloRectangle extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: "This is my first app",
+  Widget build(BuildContext context) {   // test1
+    return new MaterialApp(  // test 2
+      title: "This is my first app",  // test3
       home: new RamdomEnglishWords(),
     );
   }
